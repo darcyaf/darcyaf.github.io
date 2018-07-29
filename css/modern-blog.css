@@ -109,7 +109,7 @@
 }
 
 .card__copy p:first-of-type {
-	font-size: 1.5em;
+	font-size: 1.0em;
 	padding: 0 0 1em 0;
 }
 
@@ -355,4 +355,19 @@ a:focus {
 .ff .polygon {
 	-webkit-transform: scale(1)!important;
 	transform: scale(1)!important;
+}
+.nav-container{
+    height: 40px;
+    background: rgba(255,255,255,0.7);
+    display: flex;
+}
+.nav-item {
+    line-height: 40px;
+    list-style: none;
+    display: inline-block;
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid red;
+    font-size: 26px;
+    color: red;
 }

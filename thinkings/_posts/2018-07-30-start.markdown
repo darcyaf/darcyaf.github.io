@@ -1,0 +1,11 @@
+---
+title:  "Start My Blog Career"
+subtitle: "It is the first step that is troublesome."
+author: "c.j"
+avatar: "img/authors/wferr.png"
+image: "img/f.jpg"
+date:   "2018-07-30 03:35:12"
+---
+
+# mmp
+查了很久的坑井然是因为字符串每家双引号。。。。你特么在逗我???
