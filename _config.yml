@@ -1,7 +1,7 @@
 # Site settings
-title: Modern Blog
-description: Modern-Blog A Elegant template for Jekyll
-keywords: Modern, Blogging, Fun
-author: Wferr
+title: darcyaf's blog
+description: 于是我不再唱歌
+keywords: PHP Programmer
+author: darcyaf
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
