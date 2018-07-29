@@ -1,10 +1,11 @@
 ---
-title:  "Planes are cool!"
-subtitle: "The Fly!"
+title:  "Nobody else was around."
+subtitle: "A Beautiful shot during the night."
 author: "Wferr"
 avatar: "img/authors/wferr.png"
-image: "img/a.jpg"
-date:   2015-04-20 12:12:12
+image: "img/b.jpg"
+category: "php"
+date:   2015-04-21 12:12:12
 ---
 
 ### Dolor sit amet?
