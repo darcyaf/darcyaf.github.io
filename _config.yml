@@ -3,5 +3,5 @@ title: darcyaf's blog
 description: 于是我不再唱歌
 keywords: PHP Programmer
 author: darcyaf
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
