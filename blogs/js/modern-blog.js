@@ -125,10 +125,10 @@ var demo = (function (window) {
 
             $(cardImage).on('click', function () {
                 location.hash = $card.attr(ATTRIBUTES.id);
-                $(SELECTORS.navContainer).addClass(CLASSES.patternHidden)
+                $(SELECTORS.navContainer).fadeOut();
             });
             $(cardClose).on('click', function () {
-              $(SELECTORS.navContainer).removeClass(CLASSES.patternHidden)
+              $(SELECTORS.navContainer).fadeIn(5000);
                 location.hash = '';
             });
         });
