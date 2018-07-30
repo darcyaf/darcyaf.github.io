@@ -362,6 +362,7 @@ a:focus {
     display: flex;
     width:100%;
     margin:0 auto;
+    position:fixed;
 }
 .nav-container a{
   color: white;
