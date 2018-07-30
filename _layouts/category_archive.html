@@ -37,7 +37,7 @@ layout: compress
         <ul class="nav-container">
         <li class="nav-item"><a href="/">homepage</a></li>
         {% for category in site.categories %}
-        <li class="nav-item"><a href="/{{category[0] }}/#">{{category[0] }}</a></li>
+        <li class="nav-item"><a href="{{ site.baseurl }}{{category[0] }}/#">{{category[0] }}</a></li>
         {% endfor %}
         </ul>
     </nav>
