@@ -358,10 +358,13 @@ a:focus {
 }
 .nav-container{
     height: 40px;
-    background: rgba(255,255,255,0.7);
+    background: rgba(255,255,255,0.1);
     display: flex;
     width:100%;
     margin:0 auto;
+}
+.nav-container a{
+  color: white;
 }
 .nav-item {
     line-height: 40px;
