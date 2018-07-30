@@ -1,0 +1,33 @@
+<h3 id="definition">Definition</h3>
+<p>定义了算法族，分别封装起来，让他们之间可以互相替换，此模式让算法的变化独立于使用算法的客户</p>
+
+<h3 id="example-以做鸭子作为例子">Example 以做鸭子作为例子：</h3>
+<ul>
+  <li>v1</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span></span>  <span class="kd">public</span> <span class="kd">abstract</span> <span class="kd">class</span> <span class="nc">Duck</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">quack</span><span class="o">();</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">swim</span><span class="o">();</span>
+    <span class="o">}</span></code></pre></figure>
+
+<p>看起来很好，我们只用了一个抽象类就实现了鸭子的功能,但是，当我们需要拓展时就遇到了问题，
+比如我要绿帽鸭会飞。此时就无法直接用抽象类来做，否则所有的鸭子都会有这个功能。
+因此考虑到使用组合来实现。</p>
+<ul>
+  <li>v2</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span></span>   <span class="kd">public</span> <span class="kd">class</span> <span class="nc">GreenHatDuck</span> <span class="kd">implements</span> <span class="n">Flyable</span><span class="o">,</span><span class="n">Quackable</span><span class="o">{</span>
+     <span class="o">}</span></code></pre></figure>
+
+<p>看起来确实满足了我们的要求，我们可以实现这个接口，就可以实现全自定义。
+但是啊，未免工作量也太大了吧，每增加一个接口就需要一段复制粘贴</p>
+<ul>
+  <li>v3 
+每个行为都由超类来做定义，然后在进行实现，每个Duck在初始化的时候实现对应的具体类</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span></span><span class="kd">public</span> <span class="kd">interface</span> <span class="nc">FlyBehavior</span><span class="o">{</span>
+  <span class="kd">public</span> <span class="n">function</span> <span class="nf">fly</span><span class="o">()</span></code></pre></figure>
+
