@@ -4,5 +4,5 @@ description: 于是我不再唱歌
 keywords: PHP Programmer
 author: darcyaf
 pygments: true
-baseurl: "/_site/" # the subpath of your site, e.g. /blog/
+baseurl: "/blogs/" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
