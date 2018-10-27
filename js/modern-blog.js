@@ -12,8 +12,7 @@ var demo = (function (window) {
         pattern: '.pattern',
         card: '.card',
         cardImage: '.card__image',
-        cardClose: '.card__btn-close',
-        navContainer:'.nav-container'
+        cardClose: '.card__btn-close'
     };
 
     /**
@@ -64,6 +63,7 @@ var demo = (function (window) {
         _bindCards();
 
         _bindHashChange();
+
         _triggerOpenCard('', _getHashFromURL(location.href));
     };
 
@@ -94,6 +94,7 @@ var demo = (function (window) {
                 x: rect.left + rect.width / 2,
                 y: rect.top + rect.height / 2
             };
+
             polygonMap.points.push(point);
         });
 
@@ -232,6 +233,7 @@ var demo = (function (window) {
             x: track.x,
             y: track.y
         };
+
         polygonMap.points.forEach(function (point, i) {
 
             if (_detectPointInCircle(point, radius, center)) {
@@ -292,7 +294,6 @@ var demo = (function (window) {
         // Workaround for event.newURL and event.oldURL for Internet Explorer
         // source: https://developer.mozilla.org/en/docs/Web/API/WindowEventHandlers/onhashchange
         //let this snippet run before your hashchange event binding code
-      //
         if(!window.HashChangeEvent)(function(){
             var lastURL=document.URL;
             window.addEventListener("hashchange",function(event){

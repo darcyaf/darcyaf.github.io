@@ -109,7 +109,7 @@
 }
 
 .card__copy p:first-of-type {
-	font-size: 1.0em;
+	font-size: 1.5em;
 	padding: 0 0 1em 0;
 }
 
@@ -355,57 +355,4 @@ a:focus {
 .ff .polygon {
 	-webkit-transform: scale(1)!important;
 	transform: scale(1)!important;
-}
-.nav-container{
-    height: 40px;
-    background: rgba(255,255,255,0.1);
-    display: flex;
-    width:100%;
-    margin:0 auto;
-    position:fixed;
-}
-.nav-container a{
-  color: white;
-}
-.nav-item {
-    line-height: 40px;
-    list-style: none;
-    display: inline-block;
-    flex: 1;
-    text-align: center;
-    border-right: 1px solid red;
-    font-size: 26px;
-    color: red;
-}
-.homepage-nav-container{
-    height: 300px;
-    width: 50%;
-    margin: 0 auto;
-    padding-left: 0px;
-    border-radius: 10px;
-}
-.nav-point{
-    display: inline-block;
-    position: relative;
-    margin-right:10px;
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-left: 20px solid #f5f5f5;
-    border-bottom: 10px solid transparent;
-}
-.homepage-nav-item a{
-  color:white;
-}
-.homepage-nav-item {
-    border: 3px solid rgba(255,255,255,0.2);
-    line-height: 80px;
-    list-style: none;
-    display: inline-block;
-    background-color: #d85944;
-    margin-top: 10px;
-    width: 80%;
-    text-align: center;
-    font-size: 46px;
-    color: #f5f5f5;
 }
