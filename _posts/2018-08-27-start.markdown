@@ -3,7 +3,7 @@ title:  "序"
 subtitle: "所有的故事从这里开始"
 author: "darcyaf"
 avatar: "img/authors/darcyaf.jpeg"
-image: "img/f.jpg"
+image: "img/2018-10-27_pug.jpg"
 date:   2018-10-27 20:00:12
 ---
 
