@@ -3,11 +3,11 @@ title:  "Spark系列"
 subtitle: "安装时问题"
 author: "darcyaf"
 avatar: "img/authors/darcyaf.jpeg"
-image: "img/2018-10-27_diaochan.jpg"
+image: "img/2018-10-27_diaochan.jpeg"
 date:   2018-10-28 23:00:12
 ---
 
-# Spark环境构建
+# Spark环境搭建
 
 ## 安装Spark
 
