@@ -15,19 +15,19 @@ date:   2018-10-28 23:00:12
 
 解压Spark文件到`/usr/local`目录，命令为：
 
-```sh
+```bash
 sudo tar zxvf spark-2.3.2-bin-hadoop2.7.tgz -C /usr/local 
 ```
 
 至此`Spark`已经安装完成，为方便使用，先可以做一个软连接：
 
-```sh
+```bash
 sudo ln -s /usr/local/spark-2.3.2-bin-hadoop2.7 /usr/local/spark
 ```
 
 在.zshrc中修改`PATH`,将Spark 的bin目录放入PATH当中:
 
-```sh
+```bash
 export SPARK_HOME=/usr/local/spark
 export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
 ```
