@@ -3,7 +3,7 @@ title:  "Spark系列"
 subtitle: "安装时问题"
 author: "darcyaf"
 avatar: "img/authors/darcyaf.jpeg"
-image: "img/2018-10-27_diaochan.jpeg"
+image: "img/sabine-van-straaten-280388-unsplash.jpg"
 date:   2018-10-28 23:00:12
 ---
 
