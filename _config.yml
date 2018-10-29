@@ -1,8 +1,8 @@
 # Site settings
-title: darcy's blog
+title: darcyaf's blog
 description: 再怎么晚也要开始啊
 keywords: blog,spark
-markdown: Redcarpet
 author: darcyaf
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+highlighter:Pygments
