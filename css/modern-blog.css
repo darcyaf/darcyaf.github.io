@@ -208,6 +208,7 @@ td {
 body {
 	font-family: 'monofur', 'Microsoft YaHei', 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 	line-height: 1.5;
+	font-size: 0.8em;
 	color: #3b393d;
 	background: #f0f0f0;
 	background-size: cover;
