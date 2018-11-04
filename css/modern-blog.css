@@ -184,20 +184,23 @@
 	}
 }
 
-
-*,
-*:after,
-*:before {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
 .clearfix:before,
 .clearfix:after {
 	content: '';
 	display: table;
 }
-
+table tbody tr:nth-child(odd){
+	background: #fff;
+}
+body table{
+	border-collapse:collapse;
+}
+table tbody tr:nth-child(even){
+	background: #f1f1f1;
+}
+td {
+	border:1px solid lightslategrey
+   }
 .clearfix:after {
 	clear: both;
 }
