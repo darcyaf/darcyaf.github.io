@@ -166,7 +166,7 @@ var Card = (function (window) {
         TL.to([this._container, track], 2, {
             width: windowW,
             height: '100%',
-            x: windowW / 2,
+            x: windowW / 4,
             y: 0,
             xPercent: -50,
             ease: Expo.easeInOut,
